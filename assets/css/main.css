@@ -3936,18 +3936,18 @@ input, select, textarea {
 		line-height: 30px;
 	}
 
-	#two ul img {
+	#two span img {
 		max-width: 100%;
 		margin: 5px;
+		position: relative;
+		top: 12.5px;
+		padding-right: 0.7rem;
 	}
 
-	#two li.node img {
-		width: 30px;
-	}
-
-	#two li.aws img svg {
-		width: 30px;
-		height: 30px;
+	
+	#two span p {
+		display: inline;
+		padding: 5px;
 	}
 
 	body.is-menu-visible #wrapper {
